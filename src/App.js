@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Welcome from './testState/Welcome'
-import Welcome2 from './testState2/Welcome2'
-import Hello from './testProps/Hello'
-import Tambah from './testCounter/Tambah'
-import Tambah2 from './testCounter2/Tambah2'
-import EventBind from './testEventBind/EventBind'
-import EventBind2 from './testEventBind/EventBind2'
-import EventBind3 from './testEventBind/EventBind3'
-import EventBind4 from './testEventBind/EventBind4'
+// import Welcome from './testState/Welcome'
+// import Welcome2 from './testState2/Welcome2'
+// import Hello from './testProps/Hello'
+// import Tambah from './testCounter/Tambah'
+// import Tambah2 from './testCounter2/Tambah2'
+// import EventBind from './testEventBind/EventBind'
+// import EventBind2 from './testEventBind/EventBind2'
+// import EventBind3 from './testEventBind/EventBind3'
+// import EventBind4 from './testEventBind/EventBind4'
+import BlogPost from './testAPI/testFetch/BlogPost'
 
 class App extends Component {
   render() {
@@ -29,13 +30,14 @@ class App extends Component {
         <hr />
         <Tambah2 />
         <hr /> */}
-        <EventBind />
+        {/* <EventBind />
         <hr />
         <EventBind2 />
         <hr />
         <EventBind3 />
         <hr />
-        <EventBind4 />
+        <EventBind4 /> */}
+        <BlogPost />
       </div>
     );
   }
