@@ -10,7 +10,8 @@ import './App.css';
 // import EventBind2 from './testEventBind/EventBind2'
 // import EventBind3 from './testEventBind/EventBind3'
 // import EventBind4 from './testEventBind/EventBind4'
-import BlogPost from './testAPI/testFetch/BlogPost'
+// import BlogPost from './testAPI/testFetch/BlogPost'
+import Blog from './testAPI/testFetch2/Blog'
 
 class App extends Component {
   render() {
@@ -37,7 +38,8 @@ class App extends Component {
         <EventBind3 />
         <hr />
         <EventBind4 /> */}
-        <BlogPost />
+        {/* <BlogPost /> */}
+        <Blog />
       </div>
     );
   }
