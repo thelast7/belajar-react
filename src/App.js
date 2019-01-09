@@ -8,6 +8,8 @@ import Tambah from './testCounter/Tambah'
 import Tambah2 from './testCounter2/Tambah2'
 import EventBind from './testEventBind/EventBind'
 import EventBind2 from './testEventBind/EventBind2'
+import EventBind3 from './testEventBind/EventBind3'
+import EventBind4 from './testEventBind/EventBind4'
 
 class App extends Component {
   render() {
@@ -30,6 +32,10 @@ class App extends Component {
         <EventBind />
         <hr />
         <EventBind2 />
+        <hr />
+        <EventBind3 />
+        <hr />
+        <EventBind4 />
       </div>
     );
   }
