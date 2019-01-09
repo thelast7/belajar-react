@@ -11,7 +11,8 @@ import './App.css';
 // import EventBind3 from './testEventBind/EventBind3'
 // import EventBind4 from './testEventBind/EventBind4'
 // import BlogPost from './testAPI/testFetch/BlogPost'
-import Blog from './testAPI/testFetch2/Blog'
+// import Blog from './testAPI/testFetch2/Blog'
+import KonsumsiAxios from './testAPI/testAxios/KonsumsiAxios'
 
 class App extends Component {
   render() {
@@ -39,7 +40,8 @@ class App extends Component {
         <hr />
         <EventBind4 /> */}
         {/* <BlogPost /> */}
-        <Blog />
+        {/* <Blog /> */}
+        <KonsumsiAxios />
       </div>
     );
   }
