@@ -6,17 +6,19 @@ import Welcome2 from './testState2/Welcome2'
 import Hello from './testProps/Hello'
 import Tambah from './testCounter/Tambah'
 import Tambah2 from './testCounter2/Tambah2'
+import EventBind from './testEventBind/EventBind'
+import EventBind2 from './testEventBind/EventBind2'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Welcome />
+        {/* <Welcome />
         <hr />
         <Welcome2 />
         <hr />
-        <Hello name="takim"/> {/* bisa gini */}
-        {/* bisa gini, kalo p nya itu adalah children */}
+        <Hello name="takim"/> bisa gini
+        bisa gini, kalo p nya itu adalah children
         <Hello name="putri">
           <p>ini props children</p>
         </Hello>
@@ -24,6 +26,10 @@ class App extends Component {
         <Tambah />
         <hr />
         <Tambah2 />
+        <hr /> */}
+        <EventBind />
+        <hr />
+        <EventBind2 />
       </div>
     );
   }
