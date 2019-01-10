@@ -13,7 +13,8 @@ import './App.css';
 // import BlogPost from './testAPI/testFetch/BlogPost'
 // import Blog from './testAPI/testFetch2/Blog'
 // import KonsumsiAxios from './testAPI/testAxios/KonsumsiAxios'
-import Konsumsi2 from './testAPI/testAxios2/Konsumsi2'
+// import Konsumsi2 from './testAPI/testAxios2/Konsumsi2'
+import TestArray from './arrayMap/TestArray'
 
 class App extends Component {
   render() {
@@ -43,7 +44,8 @@ class App extends Component {
         {/* <BlogPost /> */}
         {/* <Blog /> */}
         {/* <KonsumsiAxios /> */}
-        <Konsumsi2 />
+        {/* <Konsumsi2 /> */}
+        <TestArray />
       </div>
     );
   }
