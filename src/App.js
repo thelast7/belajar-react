@@ -17,7 +17,8 @@ import './App.css';
 // import TestArray from './arrayMap/TestArray'
 // import Condition from './testCondition/Condition'
 // import Perulangan from './testPerulangan/Perulangan'
-import OrangRendering from './testPerulangan/OrangRendering'
+// import OrangRendering from './testPerulangan/OrangRendering'
+import InputFrom from './testForm/InputForm'
 
 class App extends Component {
   render() {
@@ -51,7 +52,8 @@ class App extends Component {
         {/* <TestArray /> */}
         {/* <Condition /> */}
         {/* <Perulangan /> */}
-        <OrangRendering />
+        {/* <OrangRendering /> */}
+        <InputFrom />
       </div>
     );
   }
