@@ -15,6 +15,7 @@ import './App.css';
 // import KonsumsiAxios from './testAPI/testAxios/KonsumsiAxios'
 // import Konsumsi2 from './testAPI/testAxios2/Konsumsi2'
 // import TestArray from './arrayMap/TestArray'
+// import Condition from './testCondition/Condition'
 import Perulangan from './testPerulangan/Perulangan'
 
 class App extends Component {
@@ -47,6 +48,7 @@ class App extends Component {
         {/* <KonsumsiAxios /> */}
         {/* <Konsumsi2 /> */}
         {/* <TestArray /> */}
+        {/* <Condition /> */}
         <Perulangan />
       </div>
     );
