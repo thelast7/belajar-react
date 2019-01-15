@@ -19,7 +19,8 @@ import './App.css';
 // import Perulangan from './testPerulangan/Perulangan'
 // import OrangRendering from './testPerulangan/OrangRendering'
 // import InputFrom from './testForm/InputForm'
-import Refs from './testRef/Refs'
+// import Refs from './testRef/Refs'
+import NetState from './fromNet/state/NetState'
 
 class App extends Component {
   render() {
@@ -55,7 +56,8 @@ class App extends Component {
         {/* <Perulangan /> */}
         {/* <OrangRendering /> */}
         {/* <InputFrom /> */}
-        <Refs />
+        {/* <Refs /> */}
+        <NetState />
       </div>
     );
   }
