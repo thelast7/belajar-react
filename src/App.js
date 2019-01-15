@@ -18,7 +18,8 @@ import './App.css';
 // import Condition from './testCondition/Condition'
 // import Perulangan from './testPerulangan/Perulangan'
 // import OrangRendering from './testPerulangan/OrangRendering'
-import InputFrom from './testForm/InputForm'
+// import InputFrom from './testForm/InputForm'
+import Refs from './testRef/Refs'
 
 class App extends Component {
   render() {
@@ -53,7 +54,8 @@ class App extends Component {
         {/* <Condition /> */}
         {/* <Perulangan /> */}
         {/* <OrangRendering /> */}
-        <InputFrom />
+        {/* <InputFrom /> */}
+        <Refs />
       </div>
     );
   }
