@@ -20,9 +20,18 @@ import './App.css';
 // import OrangRendering from './testPerulangan/OrangRendering'
 // import InputFrom from './testForm/InputForm'
 // import Refs from './testRef/Refs'
-import NetState from './fromNet/state/NetState'
+// import NetState from './fromNet/state/NetState'
+// import TestProps from './fromNet/props/TestProps'
+import IniClassComp from './fromNet/jenisComponent/IniClassComp';
+// import IniFunctionComp from './fromNet/jenisComponent/IniFunctionComp';
 
 class App extends Component {
+  state = {
+    mhs : [
+        {nama: 'takim', umur: 25},
+        {nama: 'putri', umur:23}
+    ]
+  }
   render() {
     return (
       <div className="App">
@@ -57,7 +66,9 @@ class App extends Component {
         {/* <OrangRendering /> */}
         {/* <InputFrom /> */}
         {/* <Refs /> */}
-        <NetState />
+        {/* <TestProps nama="takim" umur="25" /> */}
+        <IniClassComp mhs={this.state.mhs}/>
+        {/* <IniFunctionComp mhs={this.state.mhs} /> */}
       </div>
     );
   }
