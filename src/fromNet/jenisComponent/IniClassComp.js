@@ -17,10 +17,18 @@ class IniClassComp extends Component {
             mhs:mhs
         })
     }
+    hapusMhs = (id) => {
+        let mhs = this.state.mhs.filter(mh => {
+            return mh.id !== id
+        })
+        this.setState({
+            mhs:mhs
+        })
+    }
     render () {
         return (
             <div>
-                <IniFunctionComp mhs={this.state.mhs} />
+                <IniFunctionComp hapusMhs={this.hapusMhs} mhs={this.state.mhs} />
                 {/* <TernaryFunc mhs={this.state.mhs} /> */}
                 <AddMhs AddMhs={this.tambahMhs} />
             </div>
