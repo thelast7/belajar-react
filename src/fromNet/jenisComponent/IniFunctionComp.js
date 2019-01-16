@@ -5,7 +5,7 @@ const IniFunctionComp = ({mhs}) => {
     const listMhs = mhs.map(mh => { //mh disini adalah array baru kaya foreach php nama as nam
         return (
             <div key={mh.id}>
-                <h3>nama : {mh.name}</h3>
+                <h3>nama : {mh.nama}</h3>
                 <h3>umur : {mh.umur}</h3>
             </div>
         )
