@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import ClickCounter from './testHOC/ClickCounter';
+import HoverCounter from './testHOC/HoverCounter';
 // import Welcome from './testState/Welcome'
 // import Welcome2 from './testState2/Welcome2'
 // import Hello from './testProps/Hello'
@@ -22,16 +24,16 @@ import './App.css';
 // import Refs from './testRef/Refs'
 // import NetState from './fromNet/state/NetState'
 // import TestProps from './fromNet/props/TestProps'
-import IniClassComp from './fromNet/jenisComponent/IniClassComp';
+// import IniClassComp from './fromNet/jenisComponent/IniClassComp';
 // import IniFunctionComp from './fromNet/jenisComponent/IniFunctionComp';
 
 class App extends Component {
-  state = {
-    mhs : [
-        {nama: 'takim', umur: 25},
-        {nama: 'putri', umur:23}
-    ]
-  }
+  // state = {
+  //   mhs : [
+  //       {nama: 'takim', umur: 25},
+  //       {nama: 'putri', umur:23}
+  //   ]
+  // }
   render() {
     return (
       <div className="App">
@@ -67,8 +69,10 @@ class App extends Component {
         {/* <InputFrom /> */}
         {/* <Refs /> */}
         {/* <TestProps nama="takim" umur="25" /> */}
-        <IniClassComp mhs={this.state.mhs}/>
+        {/* <IniClassComp mhs={this.state.mhs}/> */}
         {/* <IniFunctionComp mhs={this.state.mhs} /> */}
+        <ClickCounter />
+        <HoverCounter />
       </div>
     );
   }
